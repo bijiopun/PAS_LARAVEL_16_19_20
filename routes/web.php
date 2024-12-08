@@ -17,7 +17,9 @@ Route::get('/index', function () {
  });
 
 
- Route::get('/news', [NewsController::class, "index"]);
+
+ // Route untuk news
+Route::get('tambah', [ProdukController::class, "sayur"]);
 
 
 // Route::get('/about', function () {
