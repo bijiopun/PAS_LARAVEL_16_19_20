@@ -66,25 +66,201 @@
     </section>
 
     <!-- Produk Section -->
+    <section class="shop py-16" id="NamaProduk">
+        <div class="heading text-left ml-20" >
+            <span class="text-4xl font-semibold text-green-600">Get Your Own Here !!</span>
+            <h2 class="text-6xl font-bold text-gray-600 mt-4" id="animatedText">Of Our Product</h2>
+        </div>
+    </section>
+
     <section class="shop py-16" id="Produk">
-    <div class="heading text-left ml-20">
-        <span class="text-4xl font-semibold text-green-600">Get Your Own Here !!</span>
-        <h2 class="text-6xl font-bold text-gray-600 mt-4" id="animatedText">Of Our Product</h2>
+    <div class="heading text-left ml-20 ">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="menu_card text-center bg-green-900 text-white rounded-lg shadow-md p-6 hover:translate-y-[-10px] transition-transform duration-300">
+                    <div class="menu_image">
+                        <img src="ASSET/tomat.png" alt="Tomat" class="w-38 h-36 rounded-full object-cover mb-4 ml-20">
+                    </div>
+                    <div class="small_card flex justify-center mb-4">
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                    </div>
+                    <div class="menu_info">
+                        <h2 class="text-2xl font-semibold mb-2">Tomat</h2>
+                        <h3 class="text-xl mb-6">20K / KG</h3>
+                        <a href="https://wa.me/+6285640433734" target="_blank" class="inline-block text-white border-1.5 border-white rounded-full px-6 py-2 hover:bg-green-700 hover:border-white transition-colors duration-300">Beli Sekarang</a>
+                    </div>
+                </div>
+                <div class="menu_card text-center bg-green-900 text-white  rounded-lg shadow-md p-6 hover:translate-y-[-10px] transition-transform duration-300">
+                    <div class="menu_image">
+                        <img src="ASSET/ceciwis.png" alt="Ceciwis" class="w-37 h-36 rounded-full object-cover mb-4 ml-20">
+                    </div>
+                    <div class="small_card flex justify-center mb-4">
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                    </div>
+                    <div class="menu_info">
+                        <h2 class="text-2xl font-semibold mb-2">Ceciwis</h2>
+                        <h3 class="text-xl mb-6">15K / KG</h3>
+                        <a href="https://wa.me/+6285640433734" target="_blank" class="inline-block text-white border-1.5 border-white rounded-full px-6 py-2 hover:bg-green-700 hover:border-white transition-colors duration-300">Beli Sekarang</a>
+                    </div>
+                </div>
+                <div class="menu_card text-center bg-green-900 text-white rounded-lg shadow-md p-6 hover:translate-y-[-10px] transition-transform duration-300 ">
+                    <div class="menu_image">
+                        <img src="ASSET/kentang.png" alt="Kentang" class="w-39 h-36 rounded-full object-cover mb-4 ml-20">
+                    </div>
+                    <div class="small_card flex justify-center mb-4">
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                    </div>
+                    <div class="menu_info">
+                        <h2 class="text-2xl font-semibold mb-2">Kentang</h2>
+                        <h3 class="text-xl mb-6">19K / KG</h3>
+                        <a href="https://wa.me/+6285640433734" target="_blank" class="inline-block text-white border-1.5 border-white rounded-full px-6 py-2 hover:bg-green-700 hover:border-white transition-colors duration-300">Beli Sekarang</a>
+                    </div>
+                </div>
+                <div class="menu_card text-center bg-green-900 text-white rounded-lg shadow-md p-6 hover:translate-y-[-10px] transition-transform duration-300 ">
+                    <div class="menu_image">
+                        <img src="ASSET/kentang.png" alt="Kentang" class="w-39 h-36 rounded-full object-cover mb-4 ml-20">
+                    </div>
+                    <div class="small_card flex justify-center mb-4">
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                    </div>
+                    <div class="menu_info">
+                        <h2 class="text-2xl font-semibold mb-2">Kentang</h2>
+                        <h3 class="text-xl mb-6">19K / KG</h3>
+                        <a href="https://wa.me/+6285640433734" target="_blank" class="inline-block text-white border-1.5 border-white rounded-full px-6 py-2 hover:bg-green-700 hover:border-white transition-colors duration-300">Beli Sekarang</a>
+                    </div>
+                </div>
+                <div class="menu_card text-center bg-green-900 text-white rounded-lg shadow-md p-6 hover:translate-y-[-10px] transition-transform duration-300 ">
+                    <div class="menu_image">
+                        <img src="ASSET/kentang.png" alt="Kentang" class="w-39 h-36 rounded-full object-cover mb-4 ml-20">
+                    </div>
+                    <div class="small_card flex justify-center mb-4">
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                    </div>
+                    <div class="menu_info">
+                        <h2 class="text-2xl font-semibold mb-2">Kentang</h2>
+                        <h3 class="text-xl mb-6">19K / KG</h3>
+                        <a href="https://wa.me/+6285640433734" target="_blank" class="inline-block text-white border-1.5 border-white rounded-full px-6 py-2 hover:bg-green-700 hover:border-white transition-colors duration-300">Beli Sekarang</a>
+                    </div>
+                </div>
+                <div class="menu_card text-center bg-green-900 text-white rounded-lg shadow-md p-6 hover:translate-y-[-10px] transition-transform duration-300 ">
+                    <div class="menu_image">
+                        <img src="ASSET/kentang.png" alt="Kentang" class="w-39 h-36 rounded-full object-cover mb-4 ml-20">
+                    </div>
+                    <div class="small_card flex justify-center mb-4">
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                    </div>
+                    <div class="menu_info">
+                        <h2 class="text-2xl font-semibold mb-2">Kentang</h2>
+                        <h3 class="text-xl mb-6">19K / KG</h3>
+                        <a href="https://wa.me/+6285640433734" target="_blank" class="inline-block text-white border-1.5 border-white rounded-full px-6 py-2 hover:bg-green-700 hover:border-white transition-colors duration-300">Beli Sekarang</a>
+                    </div>
+                </div>
+                <div class="menu_card text-center bg-green-900 text-white rounded-lg shadow-md p-6 hover:translate-y-[-10px] transition-transform duration-300 ">
+                    <div class="menu_image">
+                        <img src="ASSET/kentang.png" alt="Kentang" class="w-39 h-36 rounded-full object-cover mb-4 ml-20">
+                    </div>
+                    <div class="small_card flex justify-center mb-4">
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                    </div>
+                    <div class="menu_info">
+                        <h2 class="text-2xl font-semibold mb-2">Kentang</h2>
+                        <h3 class="text-xl mb-6">19K / KG</h3>
+                        <a href="https://wa.me/+6285640433734" target="_blank" class="inline-block text-white border-1.5 border-white rounded-full px-6 py-2 hover:bg-green-700 hover:border-white transition-colors duration-300">Beli Sekarang</a>
+                    </div>
+                </div>
+                <div class="menu_card text-center bg-green-900 text-white rounded-lg shadow-md p-6 hover:translate-y-[-10px] transition-transform duration-300 ">
+                    <div class="menu_image">
+                        <img src="ASSET/kentang.png" alt="Kentang" class="w-39 h-36 rounded-full object-cover mb-4 ml-20">
+                    </div>
+                    <div class="small_card flex justify-center mb-4">
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                    </div>
+                    <div class="menu_info">
+                        <h2 class="text-2xl font-semibold mb-2">Kentang</h2>
+                        <h3 class="text-xl mb-6">19K / KG</h3>
+                        <a href="https://wa.me/+6285640433734" target="_blank" class="inline-block text-white border-1.5 border-white rounded-full px-6 py-2 hover:bg-green-700 hover:border-white transition-colors duration-300">Beli Sekarang</a>
+                    </div>
+                </div>
+                <div class="menu_card text-center bg-green-900 text-white rounded-lg shadow-md p-6 hover:translate-y-[-10px] transition-transform duration-300 ">
+                    <div class="menu_image">
+                        <img src="ASSET/kentang.png" alt="Kentang" class="w-39 h-36 rounded-full object-cover mb-4 ml-20">
+                    </div>
+                    <div class="small_card flex justify-center mb-4">
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                        <i class="bx bxs-star text-yellow-500"></i>
+                    </div>
+                    <div class="menu_info">
+                        <h2 class="text-2xl font-semibold mb-2">Kentang</h2>
+                        <h3 class="text-xl mb-6">19K / KG</h3>
+                        <a href="https://wa.me/+6285640433734" target="_blank" class="inline-block text-white border-1.5 border-white rounded-full px-6 py-2 hover:bg-green-700 hover:border-white transition-colors duration-300">Beli Sekarang</a>
+                    </div>
+                </div>
+             
+
+                <section class="ayam" id="Tips">
+    <div class="container mx-auto px-4 pt-16">
+        <h1 class="text-3xl md:text-4xl font-semibold text-center cacing-font text-[#002072] mb-8">Tips Hidup Sehat Bersama</h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="cacing-1 bg-[#f4f2f4] rounded-2xl shadow-lg overflow-hidden">
+                <img src="ASSET/1.png" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h5 class="text-lg font-semibold text-[#002072] mb-2 cacing-font">Cara Mengobati Sakit Gigi yang Terbukti dan Ampuh</h5>
+                    <p class="text-base cacing-font">Cara mengobati sakit gigi paling ampuh, cara menghilangkan sakit gigi berlubang, dan mengatasi sakit gigi secara tradisional.</p>
+                </div>
+            </div>
+            <div class="cacing-2 bg-[#f4f2f4] rounded-2xl shadow-lg overflow-hidden">
+                <img src="ASSET/2.png" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h5 class="text-lg font-semibold text-[#002072] mb-2 cacing-font">Inilah Penyebab Gusi Bengkak</h5>
+                    <p class="text-base cacing-font">Ketahui penyebab gusi bengkak dan bagaimana cara mengatasi gusi bengkak. Inilah cara mengobati gusi bengkak agar cepat kempes.</p>
+                </div>
+            </div>
+            <div class="cacing-3 bg-[#f4f2f4] rounded-2xl shadow-lg overflow-hidden">
+                <img src="ASSET/3.png" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h5 class="text-lg font-semibold text-[#002072] mb-2 cacing-font">Penyebab Karies Gigi</h5>
+                    <p class="text-base cacing-font">Penyebab karies gigi kadang datang tanpa disadari. Oleh karena itu, mengetahui penyebab dan cara mengatasinya adalah cara terbaik bebas dari karies gigi.</p>
+                </div>
+            </div>
+        </div>
     </div>
-    
 </section>
 
-</section>
-
-<script>
-        const textArray = ["Welcome to Sari Alam", "Enjoy", "Have a Nice Day!"];
-        let index = 0;
-        const animatedText = document.getElementById("animatedText");
-
-        setInterval(() => {
-            index = (index + 1) % textArray.length;
-            animatedText.textContent = textArray[index];
-        }, 3000);
-
-</body>
-</html>
+<div class="container mx-auto px-4 my-8">
+    <img src="ASSET/tips.jpeg" class="w-full rounded-2xl shadow-lg" alt="Tips Image">
+</div>

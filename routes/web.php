@@ -1,9 +1,10 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\http\Controllers\HomeController;
+use App\Http\Controllers\ProdukController;
 
-Route::get('/welcome', function () {
+
+Route::get('/home', function () {
     return view('welcome'); //Meruju ke file welcome.blade
 });
 
@@ -16,6 +17,7 @@ Route::get('/index', function () {
  });
 
 
+ Route::get('/news', [NewsController::class, "index"]);
 
 
 // Route::get('/about', function () {
